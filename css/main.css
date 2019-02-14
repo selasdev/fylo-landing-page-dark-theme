@@ -1,0 +1,113 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: hsl(217, 28%, 15%);
+}
+
+.btn-light{
+    background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inicio{
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.principal{
+    width: 40%;
+}
+
+.p-principal{
+    width: 90%;
+}
+
+.curvy{
+    position: relative;
+}
+
+.curvy-desktop{
+    position: absolute;
+    width: 100%;
+    top: -460px;
+    z-index: -1;
+}
+
+.darkbackground{
+    background: hsl(218, 28%, 13%);
+}
+
+.comillas{
+    position: absolute;
+    z-index: 1;
+    top: 63px;
+}
+
+.testimonials{
+    margin-top: 100px;
+}
+
+.t-cuadro{
+    z-index: 20;
+}
+
+.grayish{
+    background: hsl(219, 30%, 18%);
+    box-shadow: 5px 10px 10px #1C2431;
+    border-radius: 3px;
+}
+
+.grayish:hover{
+    transition: .5s all;
+    transform: scale(1.05);
+}
+
+.t-text{
+    font-size: 13px;
+}
+
+.t-image{
+    width: 10%;
+}
+
+.t-title{
+    width: 90%;
+    font-size: 9px;
+}
+
+.susc{
+    width 10%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.suscripcion{
+    border-radius: 100px;
+}
+
+footer {
+    background: hsl(216, 53%, 9%);
+}
+
+.attribution{
+    margin: 0;
+}
+
+.lista {
+    background: hsl(216, 53%, 9%);
+    border: none;
+    color: white;
+}
